@@ -13,8 +13,6 @@
 	$Optin      = (isset( $_POST['optin']));   # checkbox
 
 
-
-
 	$headers	 = " "; # mail setion
 
 	$Captcha     =  ( isset($_POST['Captcha']) ) ? $_POST['Captcha'] : '';
@@ -182,127 +180,133 @@
 ?>
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML public  "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Contact.php</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
-		</head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
+		<meta name="description" content="homepage">
+		<title> contact.php </title>
+		<link rel="stylesheet"   type="text/css" href="Style.css"> 
+
+	</head>
 
 	<body>
+		<div class="site_container">
+			<center> <h1> New England Audio Visual Services </h1> </center>
 
-		<!--Stop Submit With Empty Input Values Using PHP
-		http://stackoverflow.com/questions/7714732/stop-submit-with-empty-input-values-using-php      -->
+			<div class="below_header"> 
 
+				<!--Stop Submit With Empty Input Values Using PHP
+				http://stackoverflow.com/questions/7714732/stop-submit-with-empty-input-values-using-php      -->
 
-		<center> <h1> New England Audio Visual Services </h1> </center>
-	
-		<div class="navbar" style="border:none;"> <!-- horizontal Navbar -->
-  			<ul>
-   				<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
-   			</ul>
-   		</div>
+				<div class="navbar" style="border:none;"> <!-- horizontal Navbar -->
+		  			<ul>
+		   				<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
+		   			</ul>
+		   		</div>
 
-		<!-- Html Form starts here   -website  -->
-		<div class="form" >
+				<!-- Html Form starts here   -website  -->
+				<div class="form" >
 
-			<form method="post" action= "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" >
+					<form method="post" action= "<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" >
 
-				<fieldset><!--https://www.youtube.com/watch?v=F7A5p2Xah0U -->
+						<fieldset><!--https://www.youtube.com/watch?v=F7A5p2Xah0U -->
 
-					<legend><b>Please fill Out the Contact Us Form:</b></legend>
+							<legend><b>Please fill Out the Contact Us Form:</b></legend>
 
-					<ul>
-						<li>
-							<p><label for="Last_Name">  Last Name: </label>
-							<input name="LastName" type="text" value= "<?php echo isset($_POST['LastName']) ? $_POST['LastName'] : '' ?>">*
-							<span><?php echo $LastNameErr;?></span></p> <!-- this php code  is for the message to be echoed if the field is Blank --> 
-						</li>
-						<li>
-							<p><label for="First_Name">First Name: </label>
-							<input name="FirstName" type="text" value= "<?php echo isset($_POST['FirstName']) ? $_POST['FirstName'] : '' ?>">*
-							<span><?php echo  $FirstNameErr;?></span></p> <!-- this php code  is for the message to be echoed if the field is Blank -->  
-						</li>
+							<ul>
+								<li>
+									<label id="lastname"> Last Name: </label>
+									<input name="LastName" type="text" value= "<?php echo isset($_POST['LastName']) ? $_POST['LastName'] : '' ?>">*
+									<span><?php echo $LastNameErr;?></span> <!-- this php code  is for the message to be echoed if the field is Blank --> 
+								</li>
+								<li>
+									<label id="First_Name">First Name: </label>
+									<input name="FirstName" type="text" value= "<?php echo isset($_POST['FirstName']) ? $_POST['FirstName'] : '' ?>">*
+									<span><?php echo  $FirstNameErr;?></span> <!-- this php code  is for the message to be echoed if the field is Blank -->  
+								</li>
 
-						<li>
-							<p>Contact info:<br>
-							<label for = "Valid_Email">Valid Email: </label>
-							<input type="text" name ="Valid_Email" value= "<?php echo isset($_POST['Valid_Email']) ? $_POST['Valid_Email'] : '' ?>" >*
-							<span><?php echo $Valid_EmailErr;?></span></P>  <!-- this php code  is for the message to be echoed if the field is Blank --> 
+								<li>
+									<!-- <p>Contact info:</p> -->
+									<label id = "Valid_Email">Valid Email: </label>
+									<input type="text" name ="Valid_Email" value= "<?php echo isset($_POST['Valid_Email']) ? $_POST['Valid_Email'] : '' ?>" >*
+									<span><?php echo $Valid_EmailErr;?></span>  <!-- this php code  is for the message to be echoed if the field is Blank --> 
 
-						</li>
-						<li>
-							<p><label for = "Phone"> Phone: </label>
-							<input type="text" name ="Phone" maxlength="10"  value= "<?php echo isset($_POST['Phone']) ? $_POST['Phone'] : '' ?>">*  
-							<span><?php echo $Phone_Err;?></span></p>  <!--issue-with-10-digit -data-in-mysq  N/B http://stackoverflow.com/questions/7570960/what-is-the-l-->
+								</li>
+								<li>
+									<p><label id = "Phone"> Phone: </label>
+									<input type="text" name ="Phone" maxlength="10"  value= "<?php echo isset($_POST['Phone']) ? $_POST['Phone'] : '' ?>">*  
+									<span><?php echo $Phone_Err;?></span></p>  <!--issue-with-10-digit -data-in-mysq  N/B http://stackoverflow.com/questions/7570960/what-is-the-l-->
 
-						</li>
-						<li>
-							<p>This contact is about what? <br>
-							<label for="Subject"> Subject:</label>
-							<input type="text" name ="subject" value="<?php echo isset($_POST['subject']) ? $_POST['subject'] : '' ?>">
-							<span><?php echo $SubjectErr;?></span></p> 
+								</li>
+								<li>
+									<p>This contact is about what? <br>
+									<label id="subject"> Subject:</label>
+									<input type="text" name ="subject" value="<?php echo isset($_POST['subject']) ? $_POST['subject'] : '' ?>">
+									<span><?php echo $SubjectErr;?></span></p> 
 
-						</li>
-						<li>
-							<p>Gutariria:<br>
-								Please Type or Paste a Detailed Gutariria of your Subject.<br>
-								Remember to Include the Best Way and Time to contact you.
-								<label for = "Gutariria"> Gutariria: </label>
-								<textarea rows="10" cols="50" name="gutariria" > </textarea> 
-							</p>
+								</li>
+								<li>
+									<p>Gutariria:<br>
+										Please Type or Paste a Detailed Gutariria of your Subject.<br>
+										Remember to Include the Best Way and Time to contact you.
+										<label id = "gutariria"> Gutariria: </label>
+										<textarea rows="10" cols="50" name="gutariria" > </textarea> 
+									</p>
 
-						</li>
-						<li>
-							<p>*If residing in USA,<br>
-								Please  Select Your State: 
-								<select name="State" >
-									<option value=" "> </option>
-									<option value="kenya">Kenya</option>
-									<option value="Uganda">Uganda</option>
-									<option value="Tanzania">Tanzania</option>
-									<option value="Zimbambwe">Zimbambwe</option>
-								</select> 
-							</p>
+								</li>
+								<li>
+									<p>*If residing in USA,<br>
+										Please  Select Your State: 
+										<select name="State" >
+											<option value=" "> </option>
+											<option value="kenya">Kenya</option>
+											<option value="Uganda">Uganda</option>
+											<option value="Tanzania">Tanzania</option>
+											<option value="Zimbambwe">Zimbambwe</option>
+										</select> 
+									</p>
 
-						</li>
-						<li>
-							<form action="upload.php" method="post" enctype="multipart/form-data">
-							Select image to upload:
-							<input type="file" name="fileToUpload" id="fileToUpload">
-							<input type="submit" value="Upload Image" name="submit">
-
-						</li>
-						<li>
-							<p>
-								If you want a copy of the form data emailed to you, <br>
-								Check this box: 
-								<input type = "checkbox" name = "optin" >
-							</p>
-
-						</li>
-						<li>
-							<!--Robots Validation --> 
-							<p> Verification Code: <img src="Captcha.gif"  alt="Captcha_Image"><br> 
-								Enter the above Code: <input  name="Captcha" type="text" value=""> 
-								<span><?php echo $CaptchaErr;?></span></p><!-- this php code  is for the message to be echoed if the field is Blank --> 
+								</li>
+								
+								<li>
 						
-							<div class="CaptchaRoberts">
-								Empty Field:  <input name="EmptyField" type="text" value= "<?php echo isset($_POST['EmptyField']) ? $_POST['EmptyField'] :'' ?>"> *
-								<span> </span>  <!-- this php code  is for the message to be echoed if the field is Blank --> 
-							</div>
+									<p>
+										If you want a copy of the form data emailed to you, <br>
+										Check this box: 
+										<input type = "checkbox" name = "optin" value="optin" checked  >
+									</p>
 
-						</li>
+								</li>
+								<li>
+									<!--Robots Validation --> 
+									<p> Verification Code: <img src="Captcha.gif"  alt="Captcha_Image"><br> 
+										Enter the above Code: <input  name="Captcha" type="text" value=""> 
+										<span><?php echo $CaptchaErr;?></span></p><!-- this php code  is for the message to be echoed if the field is Blank --> 
+								
+									<div class="CaptchaRoberts">
+										Empty Field:  <input name="EmptyField" type="text" value= "<?php echo isset($_POST['EmptyField']) ? $_POST['EmptyField'] :'' ?>"> *
+										<span> </span>  <!-- this php code  is for the message to be echoed if the field is Blank --> 
+									</div>
 
-						<li>
-							<input type="submit" value="Send">
-						</li>
-					</ul>
-				</fieldset>
-			</form>
-		</div><!--form -->
+								</li>
 
-		<Center> <p style="background-color:rgb(255, 194, 0)">   NewEngland Audio Visual Services @2014 </p> </center>
+								<li>
+									<input type="submit" value="Send">
+								</li>
+							</ul>
+						</fieldset>
+					</form>
+				</div><!--form -->
+
+				<Center> <p style="background-color:rgb(255, 194, 0)">   NewEngland Audio Visual Services @2014 </p> </center>
+			
+			</div><!--below_header -->
+
+			<footer>
+				<h2> this is footer </h2>
+			</footer>
+		</div><!-- site_container -->	
 	</body>
 </html>
