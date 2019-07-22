@@ -10,7 +10,7 @@
 	$Gutariria   = ( isset($_POST['gutariria']) ) ? $_POST['gutariria'] : '';
 
 	$State      =  (isset($_POST['State']));  # Selection
-	$Optin      = (isset( $_POST['optin']));   # checkbox
+	$optin      = (isset( $_POST['optin']));   # checkbox
 
 
 	$headers	 = " "; # mail setion
@@ -275,7 +275,7 @@
 									<p>
 										If you want a copy of the form data emailed to you, <br>
 										Check this box: 
-										<input type = "checkbox" name = "optin" value="optin" checked  >
+										<input type = "checkbox" name = "optin" value="0" >
 									</p>
 
 								</li>
