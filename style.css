@@ -14,14 +14,16 @@ body {
     position: relative;
     width: 1050px;
     margin: auto;
-    border: 3px solid green;
+    border: 1px solid white;
     padding-bottom: 100px;
 
 }
 header{
 /*   padding:10px;*/
-   background-color: pink;
+ /*  background-color: pink;*/
 /*   border: 2px solid blue;*/
+background-color: #ffa50066;
+/*text-align: center;*/
 
 }
 .below_header{
@@ -31,12 +33,13 @@ header{
 }
 
 footer{
-	   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-   background: pink;
- /*  border: 2px solid blue;*/
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;   /* Height of the footer */
+	background: #ffff85;
+	/*  border: 2px solid blue;*/
+	text-align: center;
 }
 
 h1,h2 {color:blue; 	margin:0; 	padding:0; }
@@ -51,8 +54,6 @@ a:visited {color:#00FF00;background-color:#FFFF85;} /* visited link */
 a:hover {color:#FF00FF;background-color:orange;}   /* mouse over link */
 a:active {color:#3300FF;background-color:#FF704D;}   /* selected link */
 
-
-
 p.intro{
 	display: block;
 	margin-top: 1em;
@@ -62,8 +63,8 @@ p.intro{
 
 .diviner_container{
 	display: block;
-	border: 2px solid black;
-	background-color: pink;
+	border: 1px solid black;
+	background-color: #ffff85;
 	text-align: center;
 }
 
@@ -85,20 +86,8 @@ div.diviner{
 
 .diviner ul li{
 	list-style: none;
+	margin: 3px;
 }
-
-
-/*ul{
-	padding: 0;
-}
-
-ul li{
-list-style: none;
-}
-*/
-
-
-/* akotey.html  target very  specific elements  */
 
 header{
 
@@ -115,18 +104,6 @@ div.banner img{
 	height:85px;
 }
 
-
-
-/* see gallery */
-.banner2{
-/*	border: 2px solid blue;*/
-
-}
-.banner2 img{
-	width: 200px;
-	height: 100px;
-
-}
 
 /* horizontal Navbar  */
 .navbar{
@@ -223,7 +200,6 @@ ul.models li a img{
 	top: 155px; /*position where enlarged image should offset vertically N/B this possition is affected by padding*/
 }
 
-
 /** End Models Page  **/
 
 /** profile Page  **/
@@ -279,8 +255,6 @@ ul.profiles li a span{
 	top: 0px;
 	visibility: hidden;
 }
-
-
 
 .profiles li:hover span{
 	 /*CSS for enlarged image on hover*/
