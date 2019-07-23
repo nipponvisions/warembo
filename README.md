@@ -2,6 +2,9 @@
 
 warembo
 african festival Model
+
+# live @  https://warembo.appspot.com/
+# author: @kahunyokahwai@gmail.com
 	
 
 # This is a sample site from <strong><a href="http://www.labnol.org/">Digital Inspiration</a></strong> hosted on GAE.
