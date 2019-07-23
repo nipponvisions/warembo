@@ -202,7 +202,7 @@
 
 				<div class="navbar" style="border:none;"> <!-- horizontal Navbar -->
 		  			<ul>
-		   				<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
+		   				<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
 		   			</ul>
 		   		</div>
 

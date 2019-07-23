@@ -17,8 +17,8 @@
 				<h1> New England Audio Visual Services   </h1>
 				<div class="navbar"> <!--  Navbar -->
 					<ul>
-						<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
-						<li> <a target="_self" href="models.html"> Models</a> </li>		
+						<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
+						<li> <a target="_self" href="models.php"> Models</a> </li>		
 					</ul>
 				</div><!--navbar -->
 			</header>
@@ -49,7 +49,7 @@
 			
 				<ul class="profiles">
 					<li>
-						<a onClick="location.href='mary_profile.html';"> <img src="images/hand_up.jpg" Alt="hand_up"><span>
+						<a onClick="location.href='mary_profile.php';"> <img src="images/hand_up.jpg" Alt="hand_up"><span>
 						<img src="images/hand_up.jpg" Alt="hand_up"></span></a>
 					</li>
 
@@ -58,16 +58,16 @@
 						<img src="images/mary_fatu.jpg" Alt="mary_fatu"></span></a>
 					</li>
 						<li>
-						 <a onClick="return false"><img src="Images/fatu_side.JPG" Alt="Fatu_side"><span>
-						<img src="Images/fatu_side.JPG" Alt="Fatu_side_L"></span></a>
+						 <a onClick="return false"><img src="Images/fatu_side.jpg" Alt="Fatu_side"><span>
+						<img src="Images/fatu_side.jpg" Alt="Fatu_side_L"></span></a>
 					</li>
 						<li>
-						<a onClick ="return false;"> <img src="Images/Fatu_front.JPG" Alt="Fatu_front_S"><span>
-						<img src="Images/Fatu_front.JPG" Alt="Fatu_front_L"></span></a>
+						<a onClick ="return false;"> <img src="Images/Fatu_front.jpg" Alt="Fatu_front_S"><span>
+						<img src="Images/Fatu_front.jpg" Alt="Fatu_front_L"></span></a>
 					</li>
 						<li>
-						<a onclick="return false;"> <img src="Images/fatu_dance.JPG" Alt="Fatu_dance"><span>
-						<img src="Images/fatu_dance.JPG" Alt="Fatu_danceL"></span></a>
+						<a onclick="return false;"> <img src="Images/fatu_dance.jpg" Alt="Fatu_dance"><span>
+						<img src="Images/fatu_dance.jpg" Alt="Fatu_danceL"></span></a>
 					</li>
 					            
 					<li>

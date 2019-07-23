@@ -16,8 +16,8 @@
 				<h1> New England Audio Visual Services   </h1>
 				<div class="navbar"> <!--  Navbar -->
 					<ul>
-						<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
-						<li> <a target="_self" href="models.html"> Models</a> </li>		
+						<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
+						<li> <a target="_self" href="models.php"> Models</a> </li>		
 					</ul>
 				</div><!--navbar -->
 
@@ -48,7 +48,7 @@
 
 					<ul class="profiles">
 						<li>
-							<a onClick="location.href='Martha.html';"> <img src="images/martha_solo.jpg" Alt="ivy_full"><span>
+							<a onClick="location.href='Martha.php';"> <img src="images/martha_solo.jpg" Alt="ivy_full"><span>
 							<img src="images/martha_solo.jpg" Alt="martha_solo"></span></a>
 						</li>
 
@@ -57,8 +57,8 @@
 							<img src="images/martha_mary.jpg" Alt="martha_mary"></span></a>
 						</li>
 							<li>
-							 <a onClick="return false"><img src="Images/mary_martha.JPG" Alt="mary_martha"><span>
-							<img src="Images/mary_martha.JPG" Alt="mary_martha_L"></span></a>
+							 <a onClick="return false"><img src="Images/mary_martha.jpg" Alt="mary_martha"><span>
+							<img src="Images/mary_martha.jpg" Alt="mary_martha_L"></span></a>
 						</li>
 					</ul><!--profiles-->
 

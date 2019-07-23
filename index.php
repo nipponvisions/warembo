@@ -38,11 +38,11 @@
 
 					<div class="diviner">
 					<ul>
-					<li> <a href="models.html">Models</a> </li>
+					<li> <a href="models.php">Models</a> </li>
 					<li> <a href="Contact.php">Contact</a> </li>
-					<li> <a href="Services.html">Services</a> </li>
+					<li> <a href="Services.php">Services</a> </li>
 
-					<li> <a href="News.html">News</a> </li>
+					<li> <a href="News.php">News</a> </li>
 					</ul>
 					</div>
 

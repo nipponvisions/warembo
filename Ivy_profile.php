@@ -16,8 +16,8 @@
 				<h1> New England Audio Visual Services  </h1>
 				<div class="navbar"> <!-- horizontal Navbar -->
 					<ul>
-						<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
-						<li> <a target="_self" href="models.html"> Models</a> </li>
+						<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
+						<li> <a target="_self" href="models.php"> Models</a> </li>
 					</ul>
 				</div><!--navbar -->
 
@@ -50,7 +50,7 @@
 			
 						<ul class="profiles">
 							<li>
-								<a onClick="location.href='ivy_profile.html';"> <img src="images/ivy_full_l.jpg" Alt="ivy_full"><span>
+								<a onClick="location.href='ivy_profile.php';"> <img src="images/ivy_full_l.jpg" Alt="ivy_full"><span>
 								<img src="images/ivy_full_l.jpg" Alt="ivy_full_l"></span></a>
 							</li>
 
@@ -59,8 +59,8 @@
 								<img src="images/ivy_3_ppt.jpg" Alt="ivy_3_ppt"></span></a>
 							</li>
 								<li>
-								 <a onClick="return false"><img src="Images/ivy_3_stand.JPG" Alt="ivy_3_stand"><span>
-								<img src="Images/ivy_3_stand.JPG" Alt="ivy_3_stand_L"></span></a>
+								 <a onClick="return false"><img src="Images/ivy_3_stand.jpg" Alt="ivy_3_stand"><span>
+								<img src="Images/ivy_3_stand.jpg" Alt="ivy_3_stand_L"></span></a>
 							</li>	
 						</ul><!--profiles-->
 					</div><!-- models_thumbnails --> 

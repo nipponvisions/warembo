@@ -16,7 +16,7 @@
 				<h1> New England Audio Visual Services  </h1>
 				<div class="navbar"> <!-- horizontal Navbar -->
 					<ul>
-						<li> <a Target="_self" href="index.html"><font size="4"> <b>Back Home</b></font> </a> </li>
+						<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
 					</ul>
 				</div><!--navbar -->
 
@@ -45,23 +45,23 @@
 
 						<ul class="models">
 							<li>
-								<a onClick="location.href='mary_profile.html';"> <img src="images/hand_up.jpg" Alt="hand_up"><span>
+								<a onClick="location.href='mary_profile.php';"> <img src="images/hand_up.jpg" Alt="hand_up"><span>
 								<img src="images/hand_up.jpg" Alt="hand_up"></span></a>
 							</li>
 
 							<li>
-							<a onclick="location.href='ivy_profile.html';"> <img src="Images/Ivy_full_L.JPG"Alt="Ivy_full"><span>
-							<img src="Images/Ivy_full_L.JPG"Alt="Ivy_full"></span></a>
+								<a onclick="location.href='ivy_profile.php';"> <img src="Images/Ivy_full_L.jpg"Alt="Ivy_full"><span>
+								<img src="Images/Ivy_full_L.jpg"Alt="Ivy_full"></span></a>
 							</li>
 								<li>
-							<a onclick="location.href='martha_profile.html';"> <img src="Images/martha_solo.JPG" alt="martha_solo"><span>
-							<img src="Images/martha_solo.JPG" alt="martha_solo"> </span></a>
+							<a onclick="location.href='martha_profile.php';"> <img src="Images/martha_solo.jpg" alt="martha_solo"><span>
+							<img src="Images/martha_solo.jpg" alt="martha_solo"> </span></a>
 							</li>
 
 
 							<li>
-							<a onclick="return false;"> <img src="Images/ivy_two.JPG" Alt="Ivy_2L"><span>
-							<img src="Images/ivy_two.JPG" Alt="Ivy_2L"></span></a>
+							<a onclick="return false;"> <img src="Images/ivy_two.jpg" Alt="Ivy_2L"><span>
+							<img src="Images/ivy_two.jpg" Alt="Ivy_2L"></span></a>
 							</li>
 
 							<li>
@@ -70,8 +70,8 @@
 							</li>
 
 							<li>
-							<a onclick="return false;"> <img src="Images/ivy_3_stand.JPG" Alt="Ivy_3_stand"><span>
-							<img src="Images/ivy_3_stand.JPG" Alt="Ivy_3_stand"></span></a>
+							<a onclick="return false;"> <img src="Images/ivy_3_stand.jpg" Alt="Ivy_3_stand"><span>
+							<img src="Images/ivy_3_stand.jpg" Alt="Ivy_3_stand"></span></a>
 							</li>
 
 							<li>
@@ -81,8 +81,8 @@
 
 
 							<li>
-							<a onclick="return false;"> <img src="Images/martha_mary.JPG" Alt="martha_mary"><span>
-							<img src="Images/martha_mary.JPG" Alt="martha_mary"></span></a>
+							<a onclick="return false;"> <img src="Images/martha_mary.jpg" Alt="martha_mary"><span>
+							<img src="Images/martha_mary.jpg" Alt="martha_mary"></span></a>
 							</li>
 
 						
