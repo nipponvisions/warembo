@@ -6,7 +6,7 @@
 		<meta name="description" content="Models gallery, model, gallery">
 
 		<title> mary_profile </title>
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 
 	</head>
 
@@ -58,16 +58,16 @@
 						<img src="images/mary_fatu.jpg" Alt="mary_fatu"></span></a>
 					</li>
 						<li>
-						 <a onClick="return false"><img src="Images/fatu_side.jpg" Alt="Fatu_side"><span>
-						<img src="Images/fatu_side.jpg" Alt="Fatu_side_L"></span></a>
+						 <a onClick="return false"><img src="images/fatu_side.jpg" Alt="Fatu_side"><span>
+						<img src="images/fatu_side.jpg" Alt="Fatu_side_L"></span></a>
 					</li>
 						<li>
-						<a onClick ="return false;"> <img src="Images/Fatu_front.jpg" Alt="Fatu_front_S"><span>
-						<img src="Images/Fatu_front.jpg" Alt="Fatu_front_L"></span></a>
+						<a onClick ="return false;"> <img src="images/Fatu_front.jpg" Alt="Fatu_front_S"><span>
+						<img src="images/Fatu_front.jpg" Alt="Fatu_front_L"></span></a>
 					</li>
 						<li>
-						<a onclick="return false;"> <img src="Images/fatu_dance.jpg" Alt="Fatu_dance"><span>
-						<img src="Images/fatu_dance.jpg" Alt="Fatu_danceL"></span></a>
+						<a onclick="return false;"> <img src="images/fatu_dance.jpg" Alt="Fatu_dance"><span>
+						<img src="images/fatu_dance.jpg" Alt="Fatu_danceL"></span></a>
 					</li>
 					            
 					<li>

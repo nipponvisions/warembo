@@ -6,7 +6,7 @@
 		<meta name="description" content="Models gallery, model, gallery">
 
 		<title> Martha </title>
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 
 	</head>
 
@@ -57,8 +57,8 @@
 							<img src="images/martha_mary.jpg" Alt="martha_mary"></span></a>
 						</li>
 							<li>
-							 <a onClick="return false"><img src="Images/mary_martha.jpg" Alt="mary_martha"><span>
-							<img src="Images/mary_martha.jpg" Alt="mary_martha_L"></span></a>
+							 <a onClick="return false"><img src="images/mary_martha.jpg" Alt="mary_martha"><span>
+							<img src="images/mary_martha.jpg" Alt="mary_martha_L"></span></a>
 						</li>
 					</ul><!--profiles-->
 

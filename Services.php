@@ -14,9 +14,9 @@ body { background-color: #999;
 width:100%;
 border:2px solid red; }
 
-H1, H2, H3 {text-align:center;} 
+h1, h2, h3 {text-align:center;} 
 
-H1,H2 {color:blue; background-color:orange;}
+h1,h2 {color:blue; background-color:orange;}
 
 div.container {display:inline-block;
 				 border:2px solid blue;
@@ -131,7 +131,7 @@ div.footer{
 <div style="clear: both;"></div> 
 
 <div class="block">
-	<b> VHS Cassettes </b><img src="Images/Vhs-transparent.png" alt="VHS Tape"> 
+	<b> VHS Cassettes </b><img src="images/Vhs-transparent.png" alt="VHS Tape"> 
 </div> 
 
 
@@ -141,7 +141,7 @@ div.footer{
 </div> 
 
 <div class="block">
- <b> VHS-C Cassettes </b><img src="Images/VHSC-Transparent.png"alt="vhs-c image"> 
+ <b> VHS-C Cassettes </b><img src="images/VHSC-Transparent.png"alt="vhs-c image"> 
 </div> 
 
 <div class="block">
@@ -158,7 +158,7 @@ div.footer{
 <div style="clear: both;"></div> 
 
 <div class="block" > 
-	<b>Photo Slides </b> <img src="Images/Slides-Transparent.png"alt="Photo slides">
+	<b>Photo Slides </b> <img src="images/Slides-Transparent.png"alt="Photo slides">
 </div> 
 
 
@@ -168,7 +168,7 @@ div.footer{
 </div> 
 
 <div class="block">
-	 <b>Audio Cassette Tapes </b> <img src="Images/Audio-cassette-transparent.png" alt="Audio Cassette Tapes">
+	 <b>Audio Cassette Tapes </b> <img src="images/Audio-cassette-transparent.png" alt="Audio Cassette Tapes">
 </div> 
 
 <div class="block" >
@@ -184,7 +184,7 @@ div.footer{
 <div style="clear: both;"></div> 
 
 <div class="block"> 
-	<b> Mini Dv Tapes </b> <img src="Images/mini-dv-transparent.png" alt="mini-dv-transparent">
+	<b> Mini Dv Tapes </b> <img src="images/mini-dv-transparent.png" alt="mini-dv-transparent">
 </div> 
 
 <div class="block" >
@@ -193,7 +193,7 @@ div.footer{
 </div> 
 
 <div class="block">
-	<b>Hi 8 Camcorder Tapes </b><img src="Images/hi-8-Transparent.png" alt="hi 8"> 
+	<b>Hi 8 Camcorder Tapes </b><img src="images/hi-8-Transparent.png" alt="hi 8"> 
 </div> 
 
 <div class="block" > 

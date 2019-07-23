@@ -6,7 +6,7 @@
 		<meta name="description" content="Models gallery, model, gallery">
 
 		<title> Ivy_profile </title>
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 
 	</head>
 
@@ -59,8 +59,8 @@
 								<img src="images/ivy_3_ppt.jpg" Alt="ivy_3_ppt"></span></a>
 							</li>
 								<li>
-								 <a onClick="return false"><img src="Images/ivy_3_stand.jpg" Alt="ivy_3_stand"><span>
-								<img src="Images/ivy_3_stand.jpg" Alt="ivy_3_stand_L"></span></a>
+								 <a onClick="return false"><img src="images/ivy_3_stand.jpg" Alt="ivy_3_stand"><span>
+								<img src="images/ivy_3_stand.jpg" Alt="ivy_3_stand_L"></span></a>
 							</li>	
 						</ul><!--profiles-->
 					</div><!-- models_thumbnails --> 
