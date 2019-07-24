@@ -4,6 +4,8 @@ warembo
 african festival Model
 
 # live @  https://warembo.appspot.com/
+# live @  http://www.warembo.appspot.com/
+
 # author: @kahunyokahwai@gmail.com
 	
 

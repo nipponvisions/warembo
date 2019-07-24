@@ -16,7 +16,7 @@
 				<h1> New England Audio Visual Services  </h1>
 				<div class="navbar"> <!-- horizontal Navbar -->
 					<ul>
-						<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
+						<li> <a href="index.php"> <b> Back Home </b> </a> </li>
 					</ul>
 				</div><!--navbar -->
 

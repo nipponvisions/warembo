@@ -178,9 +178,7 @@
 	VALUES ('$LastNameC', '$FirstNameC', '$Valid_EmailC', '$Phone', '$Subject', '$Gutariria', '$Country')";	
 	*/
 ?>
-
-
-<!DOCTYPE HTML public  "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -193,19 +191,23 @@
 
 	<body>
 		<div class="site_container">
-			<center> <h1> New England Audio Visual Services </h1> </center>
+		<header>
+				 <h1> New England Audio Visual Services </h1>
+
+				 <div class="navbar"> <!-- horizontal Navbar -->
+		  			<ul>
+		   				<li> <a href="index.php"> <b> Back Home  </b> </a> </li>
+		   			</ul>
+		   		</div>
+		</header>
+		
 
 			<div class="below_header"> 
 
 				<!--Stop Submit With Empty Input Values Using PHP
 				http://stackoverflow.com/questions/7714732/stop-submit-with-empty-input-values-using-php      -->
 
-				<div class="navbar" style="border:none;"> <!-- horizontal Navbar -->
-		  			<ul>
-		   				<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
-		   			</ul>
-		   		</div>
-
+		
 				<!-- Html Form starts here   -website  -->
 				<div class="form" >
 
@@ -299,13 +301,10 @@
 						</fieldset>
 					</form>
 				</div><!--form -->
-
-				<Center> <p style="background-color:rgb(255, 194, 0)">   NewEngland Audio Visual Services @2014 </p> </center>
-			
 			</div><!--below_header -->
 
 			<footer>
-				<h2> this is footer </h2>
+				<h2>    NewEngland Audio Visual Services @2019 </h2>
 			</footer>
 		</div><!-- site_container -->	
 	</body>

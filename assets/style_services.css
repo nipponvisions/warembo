@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background-color: #999;
+	width:100%;
+	border:2px solid red;
+	text-align:center;
+}
+
+h1, h2, h3 {
+	text-align:center;
+} 
+
+h1,h2 {
+	color:blue; background-color:orange;
+}
+
+div.container {
+	display:inline-block;
+	border:2px solid blue;
+	padding-left:30px;
+	padding-top:10px;
+	background-color:#CCCCCC;			
+}
+
+div.block {
+	float:left;
+	vertical-align:top;
+	width:19%;
+	height:220px;
+	border: 1px solid black; text-align: left;
+	overflow:hidden;
+}
+
+img {
+ width:98%; max-height:200px;
+} 
+
+
+
+div.header_wrapper {
+	display:block;
+}
+
+div.header { 
+width:auto;
+display: inline-block;	
+vertical-align:top;
+padding-left:10px;
+padding-right:10px;
+}
+
+.header img { 
+	width:100px; 
+}
+
+
+footer{
+	
+
+}
+footer h3{
+	background-color:rgb(255, 194, 0);
+	
+}
+
+@media only screen and  (min-width: 769px){
+	body { 
+		width:70%;
+		margin-left:14%;
+	} 
+}
+
+@media only screen and  (max-width: 768px){
+	body {
+		width:90%;
+		margin-left:5%;
+	} 
+}
+
+@media only screen and  (max-width: 480px){
+	h1 {
+		font-size: 18px;
+	}
+
+	h3 {
+		font-size: 12px 
+	} 
+}

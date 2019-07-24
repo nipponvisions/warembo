@@ -1,4 +1,4 @@
-<!DOCTYPE HTML public  "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
@@ -17,8 +17,8 @@
 				<h1> New England Audio Visual Services   </h1>
 				<div class="navbar"> <!--  Navbar -->
 					<ul>
-						<li> <a Target="_self" href="index.php"><font size="4"> <b>Back Home</b></font> </a> </li>
-						<li> <a target="_self" href="models.php"> Models</a> </li>		
+						<li> <a href="index.php"> <b> Back Home </b> </a> </li>
+						<li> <a href="models.php"> Models </a> </li>		
 					</ul>
 				</div><!--navbar -->
 			</header>
@@ -38,7 +38,7 @@
 				</li>
 
 				<li>
-					<h3>   For All Your Audio Visual Needs,  <a href="contact.php"> Contact Us </a> </h3>
+					<h3>   For All Your Audio Visual Needs, <a href="contact.php"> Contact Us </a> </h3>
 				</li>
 				
 			</ul> <!--profiles_container -->
